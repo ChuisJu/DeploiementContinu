@@ -1,6 +1,6 @@
 <?php
 
-    include("../variable_session.php");
+    include("../delete_php_session.php");
 
 
     $ret5 = disconnect_user("username");
