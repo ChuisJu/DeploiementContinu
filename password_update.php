@@ -1,5 +1,5 @@
 <?php 
-    function update_user($login, $old_password, $new_password){
+    function update_password($login, $old_password, $new_password){
         $userfile = "/var/www/html/users/" . $login;
         if((empty($login)) || (empty($old_password)) || (empty($new_password))){
             return 1;

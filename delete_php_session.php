@@ -1,5 +1,5 @@
 <?php
-    function connect($login){
+    function disconnect_user($login){
         $userfile = "/var/www/html/users/" . $login;
         if (empty($login)){
             return 1;

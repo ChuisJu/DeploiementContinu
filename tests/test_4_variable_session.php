@@ -1,6 +1,6 @@
 <?php
 
-    include("../new.php");
+    include("../variable_session.php");
 
 
     $ret9 = connect_user("username", "username");
