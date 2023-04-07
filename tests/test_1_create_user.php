@@ -5,7 +5,7 @@
     $ret3 = create_user("USERNAME", "password");
     $ret4 = create_user("admin", "Password1234!");
 
-    $file = fopen("../rapport/hash_commit", 'w');
+    $file = fopen("DeploiementContinu/rapport/hash_commit", 'w');
 
     if(($ret1 == 2) && ($ret2 == 3) && ($ret3 == 5) && ($ret4 == 0)){
         printf("true");

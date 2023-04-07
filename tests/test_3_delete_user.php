@@ -9,7 +9,7 @@ $ret11 = delete_user("", "wrongpassword", "newpassword");
 $ret12 = delete_user("admin", "Password1234!", "Password9876@");
 
 
-$file = fopen("../rapport/hash_commit", 'w');
+$file = fopen("DeploiementContinu/rapport/hash_commit", 'w');
 
 if(($ret9 == 2) && ($ret10 == 3) && ($ret11 == 1) && ($ret12 == 0)){
     printf("true");

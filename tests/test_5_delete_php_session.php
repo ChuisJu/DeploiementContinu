@@ -9,7 +9,7 @@
     $ret8 = disconnect_user(null);
 
 
-    $file = fopen("../rapport/hash_commit", 'w');
+    $file = fopen("DeploiementContinu/rapport/hash_commit", 'w');
 
     if(($ret5 == 2) && ($ret6 == 3) && ($ret7 == 1) && ($ret8 == 0)){
         printf("true");

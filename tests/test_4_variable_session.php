@@ -9,7 +9,7 @@
     $ret12 = connect_user("admin", "Password1234!");
     $ret13 = connect_user("@dmin", "Password1234!");
 
-    $file = fopen("../rapport/hash_commit", 'w');
+    $file = fopen("DeploiementContinu/rapport/hash_commit", 'w');
 
     if(($ret9 == 3) && ($ret10 == 3) && ($ret11 == 1) && ($ret12 == 0) && ($ret13 == 2)){
         printf("true");
