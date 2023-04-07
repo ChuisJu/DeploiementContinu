@@ -1,6 +1,6 @@
 <?php
 
-include("../new.php");
+include("../password_update.php");
 
 
 $ret9 = update_password("username", "password", "newpassword");

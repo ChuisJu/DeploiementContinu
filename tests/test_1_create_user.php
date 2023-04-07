@@ -1,5 +1,5 @@
 <?php
-    include("../new.php");
+    include("../create_user.php");
     $ret1 = create_user("username$", "password");
     $ret2 = create_user("username", "passwor");
     $ret3 = create_user("USERNAME", "password");
