@@ -1,5 +1,5 @@
 <?php
-    function connect_user($username, $password){
+    function connect_user($login, $password){
         $userfile = "/var/www/html/users/" . $login;
         if ((empty($login)) || (empty($password))){
             return 1;
