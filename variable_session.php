@@ -16,5 +16,6 @@
         if ($userData !== $password) {
             return 4;
         }
+        $_SESSION["CONNECTED"] = 1;
         return 0;
     }
