@@ -10,11 +10,11 @@
 
     if(($re5 == 2) && ($ret6 == 3) && ($ret7 == 1) && ($ret8 == 0)){
         printf("true");
-        echo "test_5_delete_php_session.php => true" >> "../DeploiementContinu/rapport/hash_commit";
+        echo "test_5_delete_php_session.php => true" >> "../rapport/hash_commit";
 
     }else{
         printf("false");
-        echo "test_5_delete_php_session.php => false" >> "../DeploiementContinu/rapport/hash_commit";
+        echo "test_5_delete_php_session.php => false" >> "../rapport/hash_commit";
         printf($ret5);
         printf($ret6);
         printf($ret7);

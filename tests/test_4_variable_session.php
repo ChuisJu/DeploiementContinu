@@ -11,11 +11,11 @@
 
     if(($re9 == 3) && ($ret10 == 3) && ($ret11 == 1) && ($ret12 == 0) && ($ret13 == 2)){
         printf("true");
-        echo "test_4_variable_session.php => true" >> "../DeploiementContinu/rapport/hash_commit";
+        echo "test_4_variable_session.php => true" >> "../rapport/hash_commit";
 
     }else{
         printf("false");
-        echo "test_4_variable_session.php => false" >> "../DeploiementContinu/rapport/hash_commit";
+        echo "test_4_variable_session.php => false" >> "../rapport/hash_commit";
         printf($ret9);
         printf($ret10);
         printf($ret11);
