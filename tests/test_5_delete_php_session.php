@@ -8,15 +8,20 @@
     $ret7 = disconnect_user("");
     $ret8 = disconnect_user(null);
 
-    if(($re5 == 2) && ($ret6 == 3) && ($ret7 == 1) && ($ret8 == 0)){
+
+    $file = fopen("../rapport/hash_commit", 'w');
+
+    if(($ret5 == 2) && ($ret6 == 3) && ($ret7 == 1) && ($ret8 == 0)){
         printf("true");
-        echo "test_5_delete_php_session.php => true" >> "../rapport/hash_commit";
+        $data = "test_5_delete_php_session.php => true";
 
     }else{
         printf("false");
-        echo "test_5_delete_php_session.php => false" >> "../rapport/hash_commit";
+        $data = "test_5_delete_php_session.php => false";
         printf($ret5);
         printf($ret6);
         printf($ret7);
         printf($ret8);
     }
+
+    fwrite($file, $data);
